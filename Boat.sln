@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Boat", "Boat.pyproj", "{ACD53BBF-2EAD-4CD8-A7D5-0AEC5186FDEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD53BBF-2EAD-4CD8-A7D5-0AEC5186FDEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD53BBF-2EAD-4CD8-A7D5-0AEC5186FDEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F6BFA66-E1D5-4AF4-8F15-D68F3045070E}
+	EndGlobalSection
+EndGlobal
