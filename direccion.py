@@ -41,4 +41,4 @@ def Movimiento(Angulo):
     elif Angulo==360:
         Desplazamiento = (0,1)
     return Desplazamiento
-    
+#Esto calcula el desplaamiento X y Y para el moviento en diagonal del bote
