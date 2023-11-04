@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>Boat</Name>
     <RootNamespace>Boat</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.11</InterpreterId>
+    <PublishUrl>C:\Users\LENOVO\OneDrive\Documentos\ProyectoProgramacion\Publicacion</PublishUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +25,39 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Boat.py" />
+    <Compile Include="Clases\Metas.py" />
+    <Compile Include="Clases\Piedras.py" />
+    <Compile Include="Clases\PowerUpTiempo.py" />
+    <Compile Include="Clases\PowerUpVelocidad.py" />
+    <Compile Include="direccion.py" />
+    <Compile Include="Juego.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases\" />
+    <Folder Include="Clases\__pycache__\" />
+    <Folder Include="Images\" />
+    <Folder Include="Sounds\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Clases\__pycache__\Metas.cpython-311.pyc" />
+    <Content Include="Clases\__pycache__\Piedras.cpython-311.pyc" />
+    <Content Include="Clases\__pycache__\PowerUpTiempo.cpython-311.pyc" />
+    <Content Include="Clases\__pycache__\PowerUpVelocidad.cpython-311.pyc" />
+    <Content Include="Images\BG_Pista1_Mask.png" />
+    <Content Include="Images\BG_Pista2_Mask.png" />
+    <Content Include="Images\BG_Pista3_Mask.png" />
+    <Content Include="Images\Bote.png" />
+    <Content Include="Images\Icon32x32.jpeg" />
+    <Content Include="Images\Icon500x500.jpeg" />
+    <Content Include="Images\Meta.png" />
+    <Content Include="Images\Obstaculo.png" />
+    <Content Include="Images\TiempoPowerUp.png" />
+    <Content Include="Images\VelocidadPowerUp.png" />
+    <Content Include="Sounds\Gaviotas.mp3" />
+    <Content Include="Sounds\Spash.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
